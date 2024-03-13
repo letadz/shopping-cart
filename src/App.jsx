@@ -1,8 +1,14 @@
+import Login from "./pages/auth/Login";
+import SignUp from "./pages/auth/SignUp";
+import AuthDetails from "./pages/auth/AuthDetails";
+
 const App = () => {
   return (
     <>
       <div>
-        <span className="text-9xl">Hello</span>
+        <Login />
+        <SignUp />
+        <AuthDetails />
       </div>
     </>
   );

@@ -1,8 +1,10 @@
+import Counter from "@/components/counter/Counter";
+
 const App = () => {
   return (
     <>
       <div>
-        <span className="text-9xl">Hello</span>
+        <Counter />
       </div>
     </>
   );
